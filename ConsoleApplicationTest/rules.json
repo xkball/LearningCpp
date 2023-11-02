@@ -1,0 +1,7 @@
+{
+	"rules": [
+		"exclude stringProperties equal 姓名 tester1",
+		"include enumProperties equal 性别 [\"女\"] "
+		],
+	"count": 4
+}

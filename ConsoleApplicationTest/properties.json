@@ -1,0 +1,17 @@
+{
+	"enumProperties": [
+			{
+				"name":"性别",
+				"available_values":["男","女"]
+			}
+		],
+	"doubleProperties": [
+		],
+	"stringProperties": [
+		"姓名"
+		],
+	"intProperties": [
+		],
+	"boolProperties": [
+		]
+}

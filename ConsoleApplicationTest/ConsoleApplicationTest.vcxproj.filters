@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\utils">
+      <UniqueIdentifier>{832b8e00-0b91-461c-9868-6c7ade2e8d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\utils\random">
+      <UniqueIdentifier>{e9a79146-0b8e-411d-b39d-720471b0e393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\utils\io">
+      <UniqueIdentifier>{df9c5c40-9ac1-47c3-8b2a-15c9c865ac35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\utils\json">
+      <UniqueIdentifier>{9869faf6-cecb-448f-8bef-d820c96e9eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\utils">
+      <UniqueIdentifier>{78050587-e2e9-443a-9428-0ad5e4522410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\utils\io">
+      <UniqueIdentifier>{0b52ab5e-b38e-462c-bae6-a08d0235a586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\utils\json">
+      <UniqueIdentifier>{28d01228-efc4-442e-91b9-97234adc80f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\utils\random">
+      <UniqueIdentifier>{478b2d9b-85b1-472c-adbf-a389eae7c2b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConsoleApplicationTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="xstr.cpp">
+      <Filter>源文件\utils\random</Filter>
+    </ClCompile>
+    <ClCompile Include="BitOut.cpp">
+      <Filter>源文件\utils\io</Filter>
+    </ClCompile>
+    <ClCompile Include="c32string.cpp">
+      <Filter>源文件\utils\io</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonObj.cpp">
+      <Filter>源文件\utils\json</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtils.cpp">
+      <Filter>源文件\utils\io</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonParser.cpp">
+      <Filter>源文件\utils\json</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="strings.cpp">
+      <Filter>源文件\utils\io</Filter>
+    </ClCompile>
+    <ClCompile Include="member.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Rule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BitOut.h">
+      <Filter>头文件\utils\io</Filter>
+    </ClInclude>
+    <ClInclude Include="c32string.h">
+      <Filter>头文件\utils\io</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonObj.h">
+      <Filter>头文件\utils\json</Filter>
+    </ClInclude>
+    <ClInclude Include="xstr.h">
+      <Filter>头文件\utils\random</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtils.h">
+      <Filter>头文件\utils\io</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonParser.h">
+      <Filter>头文件\utils\json</Filter>
+    </ClInclude>
+    <ClInclude Include="member.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Rule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="scaffolding_common_button.json">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
